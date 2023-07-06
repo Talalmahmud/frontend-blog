@@ -48,7 +48,7 @@ const BlogForm = () => {
                 </label>
                 <textarea
                     id="description"
-                    rows="5"
+                    rows="10"
                     className="w-full p-3 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
                     placeholder="Enter your description"
                     onChange={handleDescriptionChange}
