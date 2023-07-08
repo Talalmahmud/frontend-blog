@@ -8,7 +8,7 @@ const NavMenu = () => {
             <div className="flex gap-4 justify-center items-center">
                 {isLogedin ? (
                     <div className=" flex gap-4 items-center">
-                        <p>profile</p>
+                        <Link to="/profile">profile</Link>
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-[10px] focus:outline-none focus:shadow-outline">
                             Logout
                         </button>

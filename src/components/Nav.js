@@ -12,6 +12,7 @@ const Nav = () => {
                 >
                     BLOG
                 </Link>
+
                 <NavMenu />
             </div>
         </div>
